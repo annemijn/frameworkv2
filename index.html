@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="js/library.js"></script>
+    <style>
+        body{
+            color:darkgray;
+        }
+        span{
+            background-color:lightgray;
+            color:darkgray;
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+	<h1>Inloggen</h1>
+	<form onsubmit="return(valideer())" name="myform" id="inlog" action="" method="post">
+  				<input type="text"  id="username"name="gebruikersnaam" placeholder="Gebruikersnaam" autofocus />
+  				<input type="password" id="password" name="wachtwoord" placeholder="wachtwoord" />
+                <input type="submit" value="Inloggen" name="submit" id="submit">  
+		</form>
+	<div id="melding"></div>
+<script>
+function valideer()
+{
+	//roep de library en daarin de functie aan
+	library.validate();
+};
+</script>
+</body>
+</html>
+
