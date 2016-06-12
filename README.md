@@ -1,6 +1,7 @@
-My library
+<h1>My library</h1>
 
-your own validation login
+<h2>Dit is een loginscherm dat gebruik maakt van een validatiesysteem</h2>
+
 
 
 License
